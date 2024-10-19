@@ -11,8 +11,8 @@ return(
                     <Card 
                         key={i} 
                         id={robots[i].id} 
-                        name={robots[0].name } 
-                        email={robots[0].email } />)
+                        name={robots[i].name } 
+                        email={robots[i].email } />)
                 })
             }
         </div>
